@@ -1,0 +1,19 @@
+{
+	"fontsize": 25,
+	"fontface": "Jetbrains Mono",
+	"save_on_focus_lost": true,
+	"highlight_line": true,		
+	"caret_style": "phase",
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Packages/Aura Theme Color Scheme/aura-theme.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": true,
+	"font_size": 19,
+	"hot_exit": true,
+	"auto_complete": true,  
+}

@@ -1,0 +1,13 @@
+// NOTE: Node v22 defaults to "NodeNext"; force CommonJS so ts-node runs fine
+{
+  "cmd": [
+    "npx.cmd",
+    "ts-node",
+    "--compiler-options",
+    "{\"module\":\"CommonJS\",\"moduleResolution\":\"node\"}",
+    "--pretty",
+    "$file"
+  ],
+  "selector": "source.ts",
+  "working_dir": "$file_path"
+}
